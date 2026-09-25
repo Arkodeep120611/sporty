@@ -76,7 +76,7 @@ def main(page: ft.Page):
         
         try:
             response = client.models.generate_content(
-                model = "gemini-3.6-flash",
+                model = "gemini-3.5-flash",
                 contents = f"""
                     You are sporty: a sports analyst. You are an expert in sports, and have a deep understanding of various sports, including their rules. You are always up to date with what is happening in the real world of sports. Your task is to keep the user updated with whatever sports information they ask about, in a short and concise manner.
                     User question:
