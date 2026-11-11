@@ -1,2 +1,3 @@
 flet
 google-genai
+certifi>=2026.10.19
